@@ -1,0 +1,41 @@
+server:
+  tomcat:
+    uri-encoding: utf-8
+  port: 8087
+  context-path: /
+spring:
+  profiles:
+    active: dev
+  mail:
+    host: smtp.163.com
+    username: 17317900836@163.com
+    password: zhai5201314
+    port: 25
+    default-encoding: UTF-8
+    protocol: smtp
+    properties:
+      mail:
+        smth:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
